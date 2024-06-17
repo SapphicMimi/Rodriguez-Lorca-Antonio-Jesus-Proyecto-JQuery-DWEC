@@ -1,0 +1,50 @@
+/* Colores, fuentes y tamaños dispuestos en variables para su fácil utilización. */
+/* Paleta de colores utilizada para la página. */
+$white: #fcfafa;
+$black: #3b3b3b;
+$pink: #eccacb;
+
+$grey_1: #c2c2c2;
+/* Es el mismo que el color $black, pero con otro nombre. */
+$grey_2: #3b3b3b;
+$grey_3: #ececec;
+/* Esta fuera de la paleta, pero es un color cercano a uno de los grises. */
+$grey_4: #585858;
+$grey_5: #cfcfcf;
+
+/* Fuentes utilizadas */
+$Lato: "Lato", Helvetica;
+$Arvo: "Arvo", Helvetica;
+
+/* Puntos de Ruptura del Ancho. */
+$ruptureWidth: (
+    mqW1: 1340px,
+    mqW2: 1250px,
+    mqW3: 1218px,
+    mqW4: 985px,
+    mqW5: 975px,
+    mqW6: 915px,
+    mqW7: 850px,
+    mqW8: 800px,
+    mqW9: 765px,
+    mqW10: 650px,
+    mqW11: 605px,
+    mqW12: 575px,
+    mqW13: 435px,
+    mqW14: 405px,
+    mqW15: 350px,
+
+    /* Nuevos puntos de Ruptura que he ido necesitando y añadiendo, por eso no siguen el orden anterior. */
+    mqW16: 1016px,
+    mqW17: 1010px,
+    mqW18: 1700px,
+    mqW19: 710px,
+    mqW20: 1630px,
+    mqW21: 1900px,
+    mqW22: 1540px
+);
+
+/* Punto de Ruptura del Alto. */
+$ruptureHeight: (
+    mqH: 900px
+);

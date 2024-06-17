@@ -1,0 +1,34 @@
+{
+  "name": "project-jquery-cats",
+  "version": "1.0.0",
+  "description": "Proyecto Final - JQuery",
+  "browsers": "> 0.5%, last 4 versions, not dead",
+  "scripts": {
+    "desarrollo": "parcel src/index.html --dist-dir desarrollo",
+    "produccion": "parcel build src/index.html --public-url './' --dist-dir produccion",
+    "limpieza": "rimraf desarrollo produccion .parcel-cache",
+    "des": "npm run desarrollo",
+    "prod": "npm-run-all limpieza produccion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SapphicMimi/Rodriguez-Lorca-Antonio-Jesus-Proyecto-JQuery-DWEC.git.git"
+  },
+  "author": "Antonio Jesús Rodríguez Lorca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SapphicMimi/Rodriguez-Lorca-Antonio-Jesus-Proyecto-JQuery-DWEC.git/issues"
+  },
+  "homepage": "https://github.com/SapphicMimi/Rodriguez-Lorca-Antonio-Jesus-Proyecto-JQuery-DWEC.git#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.12.0",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "rimraf": "^5.0.7"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.2",
+    "jquery": "^3.7.1"
+  }
+}

@@ -1,0 +1,60 @@
+.body-section {
+    display: flex;
+}
+
+.aside-buttons {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-image {
+    display: flex;
+
+    justify-content: center;
+}
+
+.list-buttons {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.table {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.table-info {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.table-buttoms {
+    display: flex;
+}
+
+.one-cat {
+    display: flex;
+}
+
+.one-cat-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-cat-bottom-layer {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-cat-buttons {
+    display: flex;
+}

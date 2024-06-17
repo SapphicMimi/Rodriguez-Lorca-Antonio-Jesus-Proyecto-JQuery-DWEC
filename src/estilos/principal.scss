@@ -1,0 +1,18 @@
+/* Fuentes a utilizar. */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:900,400,700,600|Arvo:400,700");
+
+/* Todos los archivos SCSS utilizandose. */
+/* Archivos SCSS más generales. */
+@import "../estilos/variables";
+@import "../estilos/global";
+
+/* Los que establecen su disposición. */
+@import "../estilos/disposicion/header";
+@import "../estilos/disposicion/body";
+@import "../estilos/disposicion/loginRegister";
+
+/* Los que establecen su estilo, diseño y presentacion. */
+@import "../estilos/presentacion/header";
+@import "../estilos/presentacion/body";
+@import "../estilos/presentacion/loginRegister";

@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.secciones {
+    display: flex;
+
+    a {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+}
+
+.header-bottom {
+    display: flex;
+
+    justify-content: center;
+}

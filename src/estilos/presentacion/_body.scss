@@ -1,0 +1,370 @@
+.body-section {
+    width: 100%;
+
+    background-color: $grey_3;
+}
+
+.aside-buttons {
+    top: 20px;
+
+    width: 20%;
+    height: 100%;
+
+    position: sticky;
+    overflow: auto;
+
+    padding: 1%;
+    gap: 40px;
+
+    margin-top: 1%;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    background-color: $grey_5;
+    border-radius: 10px;
+}
+
+.aside-b-1 {
+    font-family: $Lato;
+    font-weight: 900;
+    font-size: 16px;
+
+    color: $white;
+    background-color: $black;
+
+    transition:.4s ease;
+
+    border: 0px solid;
+    border-radius: 5px;
+
+    line-height: 50px;
+
+    &:hover {
+        background-color: $pink;
+
+        color: $grey_2;
+    }
+}
+
+.aside-b-2 {
+    font-family: $Lato;
+    font-weight: 900;
+    font-size: 16px;
+
+    color: $white;
+    background-color: $grey_4;
+
+    transition:.4s ease;
+
+    border: 0px solid;
+    border-radius: 5px;
+
+    line-height: 50px;
+
+    &:hover {
+        background-color: $pink;
+
+        color: $grey_2;
+    }
+}
+
+.cats {
+    width: 80%;
+    height: 100%;
+
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.list {
+    width: 100%;
+    
+    margin-right: 1%;
+    margin-top: 1%;
+
+    thead {
+        width: 100%;
+
+        th {
+            background-color: $grey_5;
+
+            font-family: $Lato;
+            font-weight: 900;
+            font-size: 28px;
+
+            line-height: 60px;
+
+            color: $black;
+        }
+
+        th:first-child {
+            border-top-left-radius: 20px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 20px;
+        }
+    }
+
+    tbody {
+        tr {
+            border-top: 12px solid $white;
+            border-bottom: 12px solid $white;
+
+            transition:.4s ease;
+
+            &:hover {
+                transform: translateX(-0.5%);
+                background-color: $white;
+            }
+        }
+
+        th {
+            font-family: $Lato;
+            font-weight: 900;
+            font-size: 28px;
+
+            color: $black;
+
+            vertical-align: middle;
+
+            margin: auto;
+
+            .table-input {
+                border: 0px solid;
+                border-radius: 5px;
+            
+                font-family: $Lato;
+                font-weight: 700;
+                font-size: 16px;
+                
+                color: $black;
+            }
+
+        }
+
+        td {
+            width: 250px;
+
+            vertical-align: middle;
+
+            img {
+                width: 60%;
+                object-fit: cover;
+            }
+        }
+
+        tr:first-child {
+            border-bottom-left-radius: 20px;
+        }
+
+        th:last-child {
+            border-bottom-right-radius: 20px;
+        }
+    }
+}
+
+.table-buttons {
+    gap: 10px;
+}
+
+.list-button {
+    border: 0px solid;
+    border-radius: 5px;
+
+    font-family: $Lato;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: $white;
+    background-color: $grey_4;
+
+    line-height: 30px;
+
+    transition:.4s ease;
+
+    &:hover {
+        background-color: $pink;
+
+        color: $grey_2;
+    }
+}
+
+.table {
+    width: 100%;
+
+    gap: 20px;
+}
+
+.table-cat {
+    list-style: none;
+    
+    padding: 5%;
+
+    background-color: $grey_5;
+    border-radius: 10px;
+
+    transition:.4s ease;
+
+    img {
+        width: 100%;
+        height: 580px;
+        object-fit: cover;
+    }
+
+    &:hover {
+        transform: translateY(-2%);
+    }
+
+}
+
+.table-info {
+    h3 {
+        font-family: $Lato;
+        font-weight: 900;
+        font-size: 20px;
+
+        color: $black;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-family: $Lato;
+        font-weight: 700;
+        font-size: 28px;
+
+        color: $black;
+
+        margin-bottom: 10px;
+    }
+}
+
+.table-buttoms {
+    margin-bottom: 8px;
+
+    button {
+        width: 100%;
+        
+        border: 0px solid;
+        border-radius: 5px;
+
+        font-family: $Lato;
+        font-weight: 700;
+        font-size: 14px;
+
+        color: $white;
+        background-color: $grey_4;
+
+        line-height: 30px;
+
+        transition:.4s ease;
+
+        &:hover {
+            background-color: $pink;
+
+            color: $grey_2;
+        }
+    }
+}
+
+.one-cat {
+    width: 97%;
+
+    border-radius: 10px;
+    background-color: $grey_5;
+
+    padding: 1.5%;
+
+    img {
+        width: 350px;
+        height: 50%;
+
+        margin-right: 25px;
+    }
+}
+
+.one-cat-text{
+
+    h3 {
+        font-family: $Lato;
+        font-weight: 900;
+        font-size: 42px;
+
+        color: $black;
+
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-family: $Lato;
+        font-weight: 700;
+        font-size: 32px;
+
+        color: $black;
+
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-family: $Lato;
+        font-weight: 700;
+        font-size: 22px;
+
+        color: $black;
+
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: $Lato;
+        font-weight: 400;
+        font-size: 18px;
+
+        color: $black;
+
+        margin-bottom: 10px;
+    }
+}
+
+.one-cat-bottom-layer {
+    width: 100%;
+
+    margin-top: auto;
+}
+
+.one-cat-buttons {
+    margin-bottom: 10px;
+
+    gap: 10px;
+    button {
+        width: 100%;
+
+        border: 0px solid;
+        border-radius: 5px;
+
+        font-family: $Lato;
+        font-weight: 700;
+        font-size: 18px;
+
+        color: $white;
+        background-color: $grey_4;
+
+        line-height: 40px;
+
+        transition:.4s ease;
+
+        &:hover {
+            background-color: $pink;
+
+            color: $grey_2;
+        }
+    }
+}
+
+.icon {
+    color: $white;
+
+    font-size: 20px;
+}
