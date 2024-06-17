@@ -1,7 +1,7 @@
 node_modules
 produccion
 desarrollo
-.parcel-cache
+.parcel-cache/
 *tmp
 principal.css
 principal.css.map
