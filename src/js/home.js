@@ -79,6 +79,7 @@ async function downloadPhotos(cats) {
 
     Promise.all(call).then(() => {
         localStorage.setItem('cats', JSON.stringify(cats));
+        $("#loading").text(" ");
         showCats(order, layout);
     });
 }
